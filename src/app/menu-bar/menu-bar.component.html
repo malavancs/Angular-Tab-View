@@ -1,0 +1,6 @@
+<div class="main-container">
+  <div class="options" (click)="changeMenuFun(i)" *ngFor="let menu of options;let i = index;">
+    <div  [ngClass]="{'selected-menu':selectedOptions === i,'single-menu': true}">{{menu.label}}</div>
+    <div   [ngClass]="{'underlinecss':selectedOptions === i,'underlinenocss':selectedOptions !== i}" ></div>
+  </div>
+</div>

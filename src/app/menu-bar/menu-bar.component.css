@@ -1,0 +1,31 @@
+.main-container{
+  display:flex;
+  background:white;
+}
+.selected-menu{
+  background: white;
+  color:black;
+  opacity: 1 !important;
+  cursor:default !important;
+}
+.options{
+  padding-top:20px;
+  text-align: center;
+  flex:1;
+}
+.underlinecss{
+  height: 2px;
+  background: #0E819A;
+}
+.single-menu{
+    opacity: 0.5;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.single-menu:hover{
+  opacity: 1;
+}
+.underlinenocss{
+  height: 2px;
+
+}
