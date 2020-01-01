@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   options;
   selectedOptions;
   ngOnInit() {
-    this.selectedOptions = 0;
+    this.selectedOptions = 1;
     console.log("malavan");
     this.options = [{
       label: 'Maker',
@@ -34,6 +34,6 @@ export class AppComponent implements OnInit {
     }]
   }
   onMenuChanged(event) {
-
+    console.log(event);
   }
 }

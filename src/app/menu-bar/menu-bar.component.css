@@ -1,6 +1,8 @@
 .main-container{
   display:flex;
   background:white;
+  padding-left:10px;
+  padding-right: 10px;
 }
 .selected-menu{
   background: white;
